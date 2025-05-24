@@ -76,11 +76,17 @@ vehicle-detection-yolov8/
 ```
 ---
 🧑‍💻 Katkı Yapanlar
+
 Talha Sezer – 2405902025 - Bilişim Teknolojileri MYO
+
 ---
 🔗 GitHub Linki
+
 📎 [[GitHub Proje Sayfası](https://github.com/TalhaSezer06/AracTuruTespiti/tree/main)]
+
 ---
 📄 Lisans
+
 Bu proje MIT Lisansı kapsamında lisanslanmıştır.
+
 ---
