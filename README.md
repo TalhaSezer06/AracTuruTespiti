@@ -20,8 +20,8 @@ Projenin amacı, görsellerdeki araç türlerini sınıflandırarak farklı taş
 
 ## 🧰 Kullanılan Teknolojiler
 
-- Python 3.10  
-- OpenCV 4.x  
+- Python  
+- OpenCV
 - Ultralytics YOLOv8  
 - Tkinter (grafik arayüz)  
 - PIL (Pillow)  
