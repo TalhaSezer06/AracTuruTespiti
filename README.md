@@ -45,16 +45,16 @@ Program çalıştığında klasördeki tüm araç fotoğrafları işlenir ve eti
 📷 Örnek Çıktılar
 
 ### 🚛 Kamyon ve Araba
-![Çıktı - Truck & Car](arac_fotograflari/Ekran görüntüsü 2025-05-24 200154.png)
+![Çıktı - Truck & Car](arac_fotograflari/kamyonaraba.jpg)
 
 ### 🚘 Sarı Araba
-![Çıktı - Car](arac_fotograflari/Ekran görüntüsü 2025-05-24 200202.png)
+![Çıktı - Car](arac_fotograflari/araba.png)
 
 ### 🚌 Otobüsler
-![Çıktı - Bus](arac_fotograflari/Ekran görüntüsü 2025-05-24 200211.png)
+![Çıktı - Bus](arac_fotograflari/bus.png)
 
 ### 🏍️ Motosiklet
-![Çıktı - Motorcycle](arac_fotograflari/Ekran görüntüsü 2025-05-24 200218.png)
+![Çıktı - Motorcycle](arac_fotograflari/motor.png)
 
 vehicle-detection-yolov8/
 │
