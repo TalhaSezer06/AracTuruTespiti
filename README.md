@@ -48,7 +48,7 @@ Program çalıştığında klasördeki tüm araç fotoğrafları işlenir ve eti
 ### 🚛 Kamyon ve Araba
 ![Çıktı - Truck & Car](arac_fotograflari/kamyonaraba.jpg)
 
-### 🚘 Sarı Araba
+### 🚘 Araba
 ![Çıktı - Car](arac_fotograflari/araba.png)
 
 ### 🚌 Otobüsler
