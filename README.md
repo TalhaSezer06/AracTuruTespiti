@@ -35,4 +35,8 @@ Projenin amacı, görsellerdeki araç türlerini sınıflandırarak farklı taş
 # Gerekli kütüphaneleri yükleyin
 pip install ultralytics opencv-python pillow numpy
 ```
+---
+```bash
+python main.py
 Program çalıştığında klasördeki tüm araç fotoğrafları işlenir ve etiketlenmiş görüntüler, Tkinter arayüzü ile sırayla gösterilir. Kullanıcı ileri ve geri düğmeleri ile geçiş yapabilir.
+```
