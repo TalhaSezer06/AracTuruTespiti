@@ -22,6 +22,6 @@ pip install ultralytics opencv-python
 ```bash
 proje_klasörü/
 ├── arac_fotograflari/         # Girdi görsellerini buraya yerleştirin
-├── AracTuruTespit.py          # Ana Python betiği
+├── AracTuruTespit.py          # Ana proje
 └── README.md                  # Bu dökümantasyon dosyası
 ```
