@@ -83,3 +83,4 @@ Talha Sezer – 2405902025 - Bilişim Teknolojileri MYO
 ---
 📄 Lisans
 Bu proje MIT Lisansı kapsamında lisanslanmıştır.
+---
