@@ -1,27 +1,38 @@
-# 🚗 Araç Türü Tespiti (YOLOv8 + OpenCV)
+# 🚗 Araç Türü Tespit Sistemi
 
-Bu proje, **YOLOv8 (You Only Look Once)** nesne algılama modeli kullanılarak görüntülerdeki araç türlerini (araba, otobüs, motosiklet, kamyon, bisiklet) tespit eder ve her birini sınıfa özel renklerle kutular içine alarak görselleştirir.
-
-# Özellikler
-
-- YOLOv8 modelini kullanarak yüksek doğrulukla araç algılama.
-- Sadece belirli araç sınıfları üzerinde işlem yapılır: `car`, `bus`, `motorcycle`, `truck`, `bicycle`.
-- Her araç türü için özel renkler tanımlanır.
-- Küçük boyutlu kamyon kutuları (örneğin uzaktaki tespitler) otomatik olarak filtrelenir.
-- Her görsel işlendikten sonra tespit sonuçları OpenCV ile gösterilir.
+Bu proje, Ultralytics YOLOv8 modelini kullanarak kamera veya görsellerdeki taşıt türlerini (araba, otobüs, motosiklet, kamyon, bisiklet) tespit eden bir gerçek zamanlı yapay zekâ uygulamasıdır. Görseller arası geçiş Tkinter ile sağlanmaktadır.
 
 ---
 
-## 📦 Gereksinimler
+## 🎯 Projenin Amacı
 
-Aşağıdaki Python kütüphanelerini yüklemeniz gerekmektedir:
+Projenin amacı, görsellerdeki araç türlerini sınıflandırarak farklı taşıtları (car, bus, truck, motorcycle, bicycle) otomatik olarak tanımaktır. Özellikle trafik analizi, akıllı şehir uygulamaları ve otonom sürüş sistemleri gibi alanlarda kullanılabilir.
+
+---
+
+## 👥 Hedef Kullanıcı Kitlesi
+
+- Yapay zekâ ve bilgisayarla görme konularına ilgi duyan öğrenciler  
+- Trafik verisi analiziyle ilgilenen yazılım geliştiriciler  
+- Görüntü işleme ve nesne tanıma alanında çalışan akademisyenler
+
+---
+
+## 🧰 Kullanılan Teknolojiler
+
+- Python 3.10  
+- OpenCV 4.x  
+- Ultralytics YOLOv8  
+- Tkinter (grafik arayüz)  
+- PIL (Pillow)  
+- NumPy
+
+---
+
+## 🛠️ Kurulum Adımları
 
 ```bash
-pip install ultralytics opencv-python
+# Gerekli kütüphaneleri yükleyin
+pip install ultralytics opencv-python pillow numpy
 ```
-```bash
-proje_klasörü/
-├── arac_fotograflari/         # Girdi görsellerini buraya yerleştirin
-├── AracTuruTespit.py          # Ana proje
-└── README.md                  # Bu dökümantasyon dosyası
-```
+Program çalıştığında klasördeki tüm araç fotoğrafları işlenir ve etiketlenmiş görüntüler, Tkinter arayüzü ile sırayla gösterilir. Kullanıcı ileri ve geri düğmeleri ile geçiş yapabilir.
