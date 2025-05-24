@@ -18,8 +18,8 @@ Aşağıdaki Python kütüphanelerini yüklemeniz gerekmektedir:
 
 ```bash
 pip install ultralytics opencv-python
-
+```
 proje_dizini/
 ├── arac_fotograflari/         # Girdi görsellerini buraya yerleştirin
-├── yolov8_arac_tespiti.py     # Ana Python betiği
+├── AracTuruTespit.py          # Ana Python betiği
 └── README.md                  # Bu dökümantasyon dosyası
