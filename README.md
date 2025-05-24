@@ -42,6 +42,7 @@ pip install ultralytics opencv-python pillow numpy
 python main.py
 Program çalıştığında klasördeki tüm araç fotoğrafları işlenir ve etiketlenmiş görüntüler, Tkinter arayüzü ile sırayla gösterilir. Kullanıcı ileri ve geri düğmeleri ile geçiş yapabilir.
 ```
+---
 📷 Örnek Çıktılar
 
 ### 🚛 Kamyon ve Araba
@@ -55,7 +56,8 @@ Program çalıştığında klasördeki tüm araç fotoğrafları işlenir ve eti
 
 ### 🏍️ Motosiklet
 ![Çıktı - Motorcycle](arac_fotograflari/motor.png)
-
+---
+```
 vehicle-detection-yolov8/
 │
 ├── main.py
@@ -71,13 +73,13 @@ vehicle-detection-yolov8/
 ├── yolov8m.pt
 ├── README.md
 └── requirements.txt
-
-
+```
+---
 🧑‍💻 Katkı Yapanlar
 Talha Sezer – 2405902025 - Bilişim Teknolojileri MYO
-
+---
 🔗 GitHub Linki
 📎 [[GitHub Proje Sayfası](https://github.com/TalhaSezer06/AracTuruTespiti/tree/main)]
-
+---
 📄 Lisans
 Bu proje MIT Lisansı kapsamında lisanslanmıştır.
